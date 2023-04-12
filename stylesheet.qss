@@ -1,0 +1,44 @@
+* {
+    font-family: "Segoe UI";
+    font-size: 24px;
+    color: white;
+}
+
+QWidget {
+    background-color: #373D40;
+}
+
+QLineEdit, QTextEdit {
+    background-color: #4D5254;
+    border: 1px solid #b3b3b3;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+QPushButton {
+    background-color: #4990E2;
+    border: 1px solid #2c6bb2;
+    border-radius: 4px;
+    color: white;
+    padding: 4px;
+}
+
+QPushButton:hover {
+    background-color: #2c6bb2;
+}
+
+QPushButton:pressed {
+    background-color: #1b4d82;
+}
+
+QComboBox {
+    background-color: #4990E2;
+    border: 1px solid #b3b3b3;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #4D5254;
+    selection-background-color: #4990E2;
+}
